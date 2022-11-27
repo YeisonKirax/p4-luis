@@ -1,5 +1,7 @@
 import React from 'react';
-import { Routes, Route } from 'react-router-dom'
+import {
+  BrowserRouter as Router, Route, Routes
+} from "react-router-dom";
 
 import Inicio from './routes/Inicio'
 import Menu from './routes/Menu'
@@ -12,12 +14,14 @@ import './App.css';
 
 function App() {
   return (
-          <Routes>
+    <Router>
+      <Routes>
         <Route path='/' element={<Inicio />} />
         <Route path='/Menu' element={<Menu />} />
         <Route path='/Ubicacion' element={<Ubicacion />} />
         <Route path='/Contacto' element={<Contacto />} />
-    </Routes>
+      </Routes>
+    </Router>
   );
 }
 
