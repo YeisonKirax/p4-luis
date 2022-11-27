@@ -1,0 +1,18 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+/* Jumbotron */
+.imgJum {
+  background-image: url(./img/img_jumbotron.jpg);
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+.botoncitojt{
+  text-align: center;
+}
+
+.shadou {
+  text-shadow:0 0 5px #000000 ;
+}
+
